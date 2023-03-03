@@ -47,3 +47,5 @@ def rotate_matrix(matrix) -> np.ndarray:
            [3, 6]])
     """
     return matrix.T
+
+print(round(43.75))
