@@ -24,7 +24,6 @@ def collapse_matrix(matrix) -> np.ndarray:
 
 
 def reshape_matrix(matrix, new_dimension) -> np.ndarray:
-
     """
     :param matrix:
     :param new_dimension: new dimension to convert the matrix
@@ -37,7 +36,6 @@ def reshape_matrix(matrix, new_dimension) -> np.ndarray:
 
 
 def rotate_matrix(matrix) -> np.ndarray:
-
     """
     :param matrix: matrix to rotate
     :return: matrix : rotated matrix
@@ -48,4 +46,12 @@ def rotate_matrix(matrix) -> np.ndarray:
     """
     return matrix.T
 
-print(round(43.75))
+str = "abcdefgh"
+len_str = len(str)
+print(str[len_str//2])
+
+print("England\n South Africa\n India")
+
+
+
+
